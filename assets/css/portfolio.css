@@ -1,0 +1,107 @@
+.header{
+    margin-top: 2px;
+    background-color: #4aaaa5;
+    float: left;
+    color: white;
+    margin-inline-start: 100px;
+ }
+
+ .wrapper{
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 5px;
+    margin-top: -40px;
+    border-bottom: solid;
+    border-color: #cccccc;
+ }
+
+ #navcon ul{
+    list-style-type: none;
+    margin-top: 40px;
+    padding: 0;
+    text-align: right;
+    color: #777777;
+    margin-right: 100px;
+}
+
+#navcon ul li{
+    display: inline;
+}
+
+#navcon li:first-child:after, li:nth-child(2):after {
+    content: "|";
+    padding-left: 10px;
+    padding-right: 5px;
+    color: #ccc;
+ }
+
+ .content{
+    border: solid;
+    border-color: #cccccc;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 335px;
+    margin-top: 30px;
+ }
+ 
+ #portfolio{
+    color: #4aaaa5;
+    border-bottom: solid;
+    border-color: #7777;
+ }
+
+ p{
+    background-color: #4aaaa5;
+    color: white;
+    width: 269px;
+    padding: 10px;
+    text-align: center;
+} 
+
+#footer{
+    border-top: solid;
+    border-color: #4aaaa5;
+    border-width: 10px;
+    padding: 20px;
+    background-color: #666666;
+    margin-top: 20px;
+    text-align: center; 
+}
+#footer2{
+    color: white;
+    width: 269px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+#p1{
+    float: left;
+    margin-left: 20px;
+}
+
+#p2{
+    float: left;
+    margin-left: 20px;
+}
+ 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#p3{
+    float: left;
+    margin-left: 20px;
+}
+
+#p4{
+    float: left;
+    margin-left: 20px;
+}
+body{
+    background-image: url("assets/images/concrete_seamless.png") ;
+    background-size: 500px;
+    background-repeat: repeat;
+}
